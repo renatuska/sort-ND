@@ -1,0 +1,48 @@
+body {
+    background: grey;
+    position: relative;
+  }
+  main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    height: 100px;
+    width:200px;
+    border-radius: 20px;
+    font-size:20px;
+    font-weight: bold;
+    margin: 1rem 0;
+
+  }
+  .new {
+    display: none;
+    background: #fff;
+    width: 70%;
+    height: 70%;
+    padding: 2rem;
+  }
+  #close {
+    align-self: flex-end;
+    background: red;
+  }
+  .button {
+    display: flex;
+    justify-content: flex-end;
+  }
+  p {
+    font-size: 20px;
+  }
+  #click {
+    top: 0;
+    background: yellow;
+  }
+  .click {
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+  
